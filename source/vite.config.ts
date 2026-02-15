@@ -20,8 +20,9 @@ export default defineConfig({
   },
   base: '/mtm/',
   build: {
-    outDir: 'dist',
+    outDir: '..',       // Build to parent (mtm root)
     assetsDir: 'assets',
     sourcemap: false,
+    emptyOutDir: true,
   },
 })
