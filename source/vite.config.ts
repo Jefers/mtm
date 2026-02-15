@@ -23,6 +23,6 @@ export default defineConfig({
     outDir: '..',       // Build to parent (mtm root)
     assetsDir: 'assets',
     sourcemap: false,
-    emptyOutDir: true,
+    emptyOutDir: false,  // ← THIS IS KEY - don't delete!
   },
 })
